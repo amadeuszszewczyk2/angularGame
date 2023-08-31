@@ -1,0 +1,43 @@
+/* Apply a basic styling to the whole body */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #939daf;
+  color: white;
+}
+
+/* Style the game container */
+.game-container {
+  text-align: center;
+  border: 2px solid #61dafb;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #c7cad1;
+}
+
+/* Style the input field and button */
+input,
+button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style the button */
+button {
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: bold;
+}
+
+/* Style the message */
+.message {
+  font-size: 1.2em;
+  font-weight: bold;
+}

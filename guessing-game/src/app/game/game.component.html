@@ -1,0 +1,13 @@
+<div class="game-container">
+  <h1>Number Guessing Game</h1>
+  <p>
+    We have selected a random number between 1 and 100. See if you can guess it
+    in 10 turns or fewer. We'll tell you if your guess was too high or too low.
+  </p>
+  <div>
+    <label for="guessField">Enter a guess: </label>
+    <input type="number" [(ngModel)]="currentGuess" id="guessField" />
+    <button (click)="checkGuess()">Submit Guess</button>
+  </div>
+  <p class="message">{{ message }}</p>
+</div>
